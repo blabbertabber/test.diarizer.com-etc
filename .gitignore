@@ -1,0 +1,6 @@
+shadow*
+gshadow*
+ssh/*key
+chrony.keys
+pki/*.key
+pki/nginx/private/

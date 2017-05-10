@@ -1,0 +1,14 @@
+#!/bin/sh
+# Check whether 0anacron was run today already
+if test -r /var/spool/anacron/cron.daily; then
+    day=`cat /var/spool/anacron/cron.daily`
+fi
+if [ `date +%Y%m%d` = "$day" ]; then
+    exit 0
+fi
+
+# Do not run jobs when on battery power
+if [ `cat /sys/class/power_supply/AC/online 2>/dev/null`x = 0x ]; then
+    exit 0
+fi
+/usr/sbin/anacron -s
