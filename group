@@ -36,10 +36,11 @@ abrt:x:173:
 systemd-journal:x:190:
 systemd-network:x:192:
 systemd-resolve:x:193:
+docker:x:978:cunnie,saintbrendan,charlotte,diarizer
 cgred:x:979:
 acme_tiny:x:990:
 diarizer:x:991:cunnie,saintbrendan,charlotte
-nginx:x:992:
+nginx:x:992:cunnie,saintbrendan,charlotte
 systemd-coredump:x:993:
 chrony:x:994:
 cockpit-ws:x:995:
