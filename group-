@@ -8,7 +8,7 @@ disk:x:6:
 lp:x:7:
 mem:x:8:
 kmem:x:9:
-wheel:x:10:cunnie
+wheel:x:10:cunnie,saintbrendan,charlotte
 cdrom:x:11:
 mail:x:12:
 man:x:15:
@@ -36,7 +36,10 @@ abrt:x:173:
 systemd-journal:x:190:
 systemd-network:x:192:
 systemd-resolve:x:193:
-cgred:x:992:
+cgred:x:979:
+acme_tiny:x:990:
+diarizer:x:991:cunnie,saintbrendan,charlotte
+nginx:x:992:cunnie,saintbrendan,charlotte
 systemd-coredump:x:993:
 chrony:x:994:
 cockpit-ws:x:995:
